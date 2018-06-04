@@ -334,6 +334,10 @@ header {
   padding: 0;
 }
 
+.hidden-meals-header {
+  display: none;
+}
+
 .meals-showcase {
   list-style: none;
   width: 100%;
