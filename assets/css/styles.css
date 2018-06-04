@@ -272,6 +272,22 @@ header {
   border-bottom: 2px solid #e67e22;
 }
 
+/* Mobile nav */
+
+.mobile-nav-icon,
+.mobile-nav-icon-close {
+  float: right;
+  margin-top: 30px;
+  cursor: pointer;
+  display: none;
+}
+
+.mobile-nav-icon ion-icon,
+.mobile-nav-icon-close ion-icon {
+  font-size: 200%;
+  color: #fff;
+}
+
 /* Sticky nav */
 
 .sticky {
