@@ -598,14 +598,14 @@ input[type="checkbox"] {
 
 .map-box {
   width: 100%;
-  height: 560px;
+  height: 630px;
   position: relative;
   padding: 0;
 }
 
 .map {
   width: 100%;
-  height: 560px;
+  height: 630px;
   position: relative;
   z-index: 0;
 }
@@ -617,8 +617,25 @@ input[type="checkbox"] {
   right: 0;
   background-color: rgba(255, 255, 255, 0.8);
   z-index: 10;
-  height: 560px;
+  height: 630px;
   padding-top: 40px;
+}
+
+.form-messages {
+  width: 70%;
+  margin: 0 auto;
+  padding: 10px;
+  border-radius: 3px;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.success {
+  background-color: rgba(38, 191, 68, 0.8);
+}
+
+.error {
+  background-color: rgba(209, 46, 46, 0.8))
 }
 
 /* ------------------------ */
